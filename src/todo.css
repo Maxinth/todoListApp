@@ -1,0 +1,44 @@
+.bord {
+  border-left: 8px dotted black;
+  border-right: 5px dotted white;
+  border-style: ridge;
+  box-shadow: -3px 7px black;
+}
+
+.corner {
+  border-radius: 100px;
+  background-color: skyblue;
+  color: black;
+  border-style: inset;
+}
+
+.bordCorn {
+  border-radius: 20px;
+  margin-bottom: -60px;
+}
+
+.appColor {
+  background-color: grey;
+  padding: 40px;
+  padding-top: 30px;
+  border-radius: 1px;
+  margin-bottom: 30px;
+  padding-right: 40px;
+  box-shadow: -10px 12px grey;
+
+  border-width: 20px;
+  width: 100%;
+
+  height: 100%;
+}
+
+.ov {
+  overflow: auto;
+  max-width: 300px;
+  border-top-left-radius: 50px;
+}
+
+.headerMsg {
+  font-size: 20px;
+  font-family: Garamond sans-serif;
+}
